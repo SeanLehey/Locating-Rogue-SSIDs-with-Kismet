@@ -53,9 +53,9 @@ You will observe new device detections within the console:
 
 Kismet displays information about devices in an organized manner.  Depending on which view is selected, different information is displayed. The two views we are using are called _Devices_ and _SSIDs_.
 
-![4Panels](https://github.com/user-attachments/assets/e1dec70a-6484-448c-8845-d01dce809427)
+<br>![4Panels](https://github.com/user-attachments/assets/e1dec70a-6484-448c-8845-d01dce809427)
 
-Depending on the selected view, different information is displayed to the user. The most pertinent datapoints are as follows:
+<br>Depending on the selected view, different information is displayed to the user. The most pertinent datapoints are as follows:
 
 
 ### SSID
@@ -76,7 +76,7 @@ Aside from wardriving and locating rogue devices, Kismet is just a fun tool in g
 
 <br>![UnitedAirlinesVerbose](https://github.com/user-attachments/assets/4e0ba654-3668-48c0-a4d5-e44a293391cf)
 
-Kismet data can be uploaded to Wigle.net, which is a wireless network mapping tool made possible by user-submitted data. It provides heatmaps of access points, along with their names. This is why it's prudent to redact any unique, user-configured SSIDs when doing projects like this, as that is not your information to share. Once again, ethics should be your foremost priority when using a tool like Kismet.
+<br>Kismet data can be uploaded to Wigle.net, which is a wireless network mapping tool made possible by user-submitted data. It provides heatmaps of access points, along with their names. This is why it's prudent to redact any unique, user-configured SSIDs when doing projects like this, as that is not your information to share. Once again, ethics should be your foremost priority when using a tool like Kismet.
 
 <br>![Wigle](https://github.com/user-attachments/assets/efbbee63-c4c2-4f6c-bd74-76622e90c1e1)
 
