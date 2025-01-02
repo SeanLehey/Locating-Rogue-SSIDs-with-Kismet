@@ -18,3 +18,14 @@ This project demonstrates how to use Kismet and a simple WiFi adapter card to lo
 ### Installing Kismet
 
 Kismet is preinstalled on Kali Linux. If using another distro, refer to the official installation documentation on Kismet's website (https://www.kismetwireless.net/docs/readme/installing/linux/)
+
+## Setup and Usage
+
+After installing all necessary software and drivers, it's time to launch Kismet. In your console, type `sudo kismet -c wlan1`. This launches Kismet and incorporates the live data gathered by the WiFi adapter in monitor mode.
+
+You will observe new device detections within the console:
+
+>picturehere<
+
+However, the information we're after is more conveniently viewed in a GUI. Tab to your browser and navigate to `http://localhost:2501` and create an account and password:
+
