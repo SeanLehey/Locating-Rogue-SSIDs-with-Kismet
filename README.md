@@ -34,3 +34,7 @@ However, the information we're after is better viewed in a GUI. Tab to your brow
 
 
 ![AdminPanel](https://github.com/user-attachments/assets/6a3464e7-f6b0-4678-a87d-67496ca9c327)
+
+Once you create your account, you're provided with a more legible view of the incoming data:
+
+![GeneralKismet](https://github.com/user-attachments/assets/143b3929-faf4-4535-b002-3ebb381f6833)
