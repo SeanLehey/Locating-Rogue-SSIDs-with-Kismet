@@ -41,7 +41,7 @@ You will observe new device detections within the console:
 <br>![LaunchedTerminal](https://github.com/user-attachments/assets/c470fffd-3b04-444e-a4e5-439a972a4589)
 
 
-<br>However, the information we're after is better viewed in a GUI. Tab to your browser and navigate to `http://localhost:2501` and create an account and password:
+<br>However, this information is better viewed in a GUI. Tab to your browser and navigate to `http://localhost:2501` and create an account and password:
 
 <br>![AdminPanel](https://github.com/user-attachments/assets/6a3464e7-f6b0-4678-a87d-67496ca9c327)
 
