@@ -9,12 +9,13 @@ Kismet is a powerful tool that is commonly used for [Wardriving](https://en.wiki
 
 ## Resources
 ### Hardware
-* Laptop with Linux (Kali is most convenient due to preinstalled dependencies)
-* Alfa AWUS036ACH WiFi Adapater
+* 1x Linux device (Kali is most convenient due to preinstalled packages)
+* 1x Alfa AWUS036ACH WiFi Adapater
 
 ### Software
 * Aircrack-NG
 * Kismet
+* Chipset drivers for your chosen WiFi adapter
 
 ### Acknowledgements
 * [Signals Intelligence with Kismet by SecurityFWD](https://www.youtube.com/watch?v=Qs9xPmUqzHI)
@@ -31,7 +32,7 @@ I highly recommend using Kali Linux as the only installations needed are the chi
 
 Driver installation for my particular WiFi adapter is a simple process and can be referenced in the _Acknowledgements_ section above. That tutorial also shows how to put your WiFi adapter into monitoring mode.
 
-## Setup and Usage
+## Initial Setup
 
 After installing your drivers and enabling monitoring mode, it's time to launch Kismet. In your console, type `sudo kismet -c wlan1`. This launches Kismet and displays the live data gathered by the WiFi adapter.
 
@@ -48,3 +49,33 @@ You will observe new device detections within the console:
 
 <br>![GeneralKismet](https://github.com/user-attachments/assets/72b2374f-5967-4b29-b93d-6baf1e7cf7dd)
 
+## Data Columns
+
+Kismet displays information about devices in an organized manner.  Depending on which view is selected, different information is displayed. The two views we are using are called _Devices_ and _SSIDs_.
+
+![4Panels](https://github.com/user-attachments/assets/e1dec70a-6484-448c-8845-d01dce809427)
+
+Depending on the selected view, different information is displayed to the user. The most pertinent datapoints are as follows:
+
+
+### SSID
+
+SSID stands for Service Set ID, and it represents the human-readable name of the device. This can be configured by the device owner. The default value often shares the brand name and model of the device.
+
+### BSSID
+
+BSSID stands for Base Service Set ID, and it uniquely identifies a specific WiFi network. This value cannot be changed. While this is not a MAC address, plugging this value into a MAC database will still likely yield the manufacturer name at the very least.
+
+### Sgn
+
+Sgn represents the signal strength emitted by the device in relation to your WiFi adapter. This is the most important value to consider when attempting to locate rogue SSIDs in your environment. As a rule of thumb, the closer this is to zero, the closer your WiFi adapter is to the device. Using a simple _hot and cold_ technique will likely result in the user locating the device.
+
+## Other Uses
+
+Aside from wardriving and locating rogue devices, Kismet is just a fun tool in general. While making this project, an airplane flew overhead and broadcasted its in-flight WiFi for a few minutes. It should be noted that, just like the cliched _FBI Spy Van_ SSID, always take SSIDs with a grain of salt. This is a user-configurable value and is not foolproof; this very well could have belonged to a passerby with a sense of humor.
+
+<br>![UnitedAirlinesVerbose](https://github.com/user-attachments/assets/4e0ba654-3668-48c0-a4d5-e44a293391cf)
+
+Kismet data can be uploaded to Wigle.net, which is a wireless network mapping tool made possible by user-submitted data. It provides heatmaps of access points, along with their names. This is why it's prudent to redact any unique, user-configured SSIDs when doing projects like this, as that is not your information to share. Once again, ethics should be your foremost priority when using a tool like Kismet.
+
+Overall, Kismet is a fun tool to have in one's arsenal. From a hobbyist perspective, you get to see what's up, down, and around in the invisible world of networking. For more practical purposes, it's a solid bulwark against rogue SSIDs and shadow IT. Thanks for reading!
