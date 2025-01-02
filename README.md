@@ -76,7 +76,7 @@ Aside from wardriving and locating rogue devices, Kismet is just a fun tool in g
 
 <br>![UnitedAirlinesVerbose](https://github.com/user-attachments/assets/4e0ba654-3668-48c0-a4d5-e44a293391cf)
 
-<br>Kismet data can be uploaded to Wigle.net, which is a wireless network mapping tool made possible by user-submitted data. It provides heatmaps of access points, along with their names. This is why it's prudent to redact any unique, user-configured SSIDs when doing projects like this, as that is not your information to share. Once again, ethics should be your foremost priority when using a tool like Kismet.
+<br>Kismet data can also be uploaded to Wigle.net, which is a wireless network mapping tool made possible by user-submitted data. It provides heatmaps of access points, along with their names. This is why it's prudent to redact any residential, user-configured SSIDs when doing projects like this, as that is not your information to share. Once again, ethics should be your foremost priority when using a tool like Kismet.
 
 <br>![Wigle](https://github.com/user-attachments/assets/efbbee63-c4c2-4f6c-bd74-76622e90c1e1)
 
