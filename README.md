@@ -5,7 +5,7 @@ A basic signals intelligence project
 This project demonstrates how to use Kismet and a simple WiFi adapter card to locate rogue SSIDs within a given proximity.
 
 ## Disclaimer
-Kismet is a powerful tool that is commonly used for [Wardriving](https://en.wikipedia.org/wiki/Wardriving). It is a passive, listen-only piece of softwware which makes no attempt to infiltrate, modify, or probe other networks or devices. Custom SSIDs which do not belong to me have been censored with black panels in the interest of preserving privacy. Ethical use of this tool should be your foremost priority at all times.
+Kismet is a powerful tool that is commonly used for [Wardriving](https://en.wikipedia.org/wiki/Wardriving). It is a passive, listen-only piece of software which makes no attempt to infiltrate, modify, or probe other networks or devices. Custom SSIDs which do not belong to me have been censored with black panels in the interest of preserving privacy. Ethical use of this tool should be your foremost priority at all times.
 
 ## Resources
 ### Hardware
