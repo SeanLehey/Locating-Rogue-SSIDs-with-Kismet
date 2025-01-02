@@ -26,7 +26,7 @@ Kismet is a powerful tool that is commonly used for [Wardriving](https://en.wiki
 ### Kismet
 
 Kismet is preinstalled on Kali Linux. If using another distro, refer to the [official installation documentation on Kismet's website](https://www.kismetwireless.net/docs/readme/installing/linux/).
-I highly recommend using Kali Linux as the only installations needed are the chipset drivers for your WiFi adapter, which greatly simplifies the process.
+I highly recommend using Kali Linux as the only installation needed is the chipset driver for your WiFi adapter, which greatly simplifies the process.
 
 ### Drivers
 
@@ -78,4 +78,6 @@ Aside from wardriving and locating rogue devices, Kismet is just a fun tool in g
 
 Kismet data can be uploaded to Wigle.net, which is a wireless network mapping tool made possible by user-submitted data. It provides heatmaps of access points, along with their names. This is why it's prudent to redact any unique, user-configured SSIDs when doing projects like this, as that is not your information to share. Once again, ethics should be your foremost priority when using a tool like Kismet.
 
-Overall, Kismet is a fun tool to have in one's arsenal. From a hobbyist perspective, you get to see what's up, down, and around in the invisible world of networking. For more practical purposes, it's a solid bulwark against rogue SSIDs and shadow IT. Thanks for reading!
+<br>![Wigle](https://github.com/user-attachments/assets/efbbee63-c4c2-4f6c-bd74-76622e90c1e1)
+
+<br>Overall, Kismet is a fun tool to have in one's arsenal. From a hobbyist perspective, you get to see what's up, down, and around in the invisible world of networking. For more practical purposes, it's a solid bulwark against rogue SSIDs and shadow IT. Thanks for reading!
