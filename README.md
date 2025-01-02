@@ -72,7 +72,7 @@ Sgn represents the signal strength emitted by the device in relation to your WiF
 
 ## Other Uses
 
-Aside from wardriving and locating rogue devices, Kismet is just a fun tool in general. While making this project, an airplane flew overhead and broadcasted its in-flight WiFi for a few minutes. It should be noted that, just like the cliched _FBI Spy Van_ SSID, always take SSIDs with a grain of salt. This is a user-configurable value and is not foolproof; this very well could have belonged to a passerby with a sense of humor.
+Aside from wardriving and locating rogue devices, Kismet is just a fun tool in general. While making this project, an airplane flew overhead and broadcasted its in-flight WiFi for a few minutes. It should be noted that, just like the cliched _FBI Spy Van_ SSID, you should always take SSIDs with a grain of salt. This is a user-configurable value and is not foolproof; this very well could have belonged to a passerby with a sense of humor.
 
 <br>![UnitedAirlinesVerbose](https://github.com/user-attachments/assets/4e0ba654-3668-48c0-a4d5-e44a293391cf)
 
