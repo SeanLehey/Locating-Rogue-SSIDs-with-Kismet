@@ -13,15 +13,22 @@ This project demonstrates how to use Kismet and a simple WiFi adapter card to lo
 * Aircrack-NG
 * Kismet
 
+### Acknowledgements
+* [Signals Intelligence with Kismet by SecurityFWD](https://www.youtube.com/watch?v=Qs9xPmUqzHI)
+* [Configuring the Alpha AWUS036ACH Wi-Fi Adapter on Kali Linux](https://hackernoon.com/configuring-the-alpha-awus036ach-wi-fi-adapter-on-kali-linux)
+
 ## Installation
 
 ### Installing Kismet
 
-Kismet is preinstalled on Kali Linux. If using another distro, refer to the official installation documentation on Kismet's website (https://www.kismetwireless.net/docs/readme/installing/linux/)
+Kismet is preinstalled on Kali Linux. If using another distro, refer to the [official installation documentation on Kismet's website](https://www.kismetwireless.net/docs/readme/installing/linux/).
+I highly recommend using Kali Linux as the only installations needed are the chipset drivers for your WiFi adapter, which greatly simplifies the process.
+
+Driver installation for my particular WiFi adapter is a simple process and can be referenced in the _Acknowledgements_ section above. That tutorial also shows how to put your WiFi adapter into monitoring mode.
 
 ## Setup and Usage
 
-After installing all necessary software and drivers, it's time to launch Kismet. In your console, type `sudo kismet -c wlan1`. This launches Kismet and displays the live data gathered by the WiFi adapter in monitor mode.
+After installing your drivers and enabling monitoring mode, it's time to launch Kismet. In your console, type `sudo kismet -c wlan1`. This launches Kismet and displays the live probing data gathered by the WiFi adapter.
 
 You will observe new device detections within the console:
 
@@ -37,4 +44,5 @@ However, the information we're after is better viewed in a GUI. Tab to your brow
 
 Once you create your account, you're provided with a more legible view of the incoming data:
 
-![GeneralKismet](https://github.com/user-attachments/assets/143b3929-faf4-4535-b002-3ebb381f6833)
+![GeneralKismet](https://github.com/user-attachments/assets/72b2374f-5967-4b29-b93d-6baf1e7cf7dd)
+
